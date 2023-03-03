@@ -1,0 +1,32 @@
+.Search-Tray{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid #cac7c7;
+    border-radius: 5rem;
+    margin: 10px 00px;
+    box-shadow: 0px 2px 4px #dedede;
+
+}
+.catchers{
+    padding:  6px 15px ;
+    background-color: white;
+    border: none;
+    border-radius: 5rem;
+    /* margin: 0px 20px; */
+    font-size: 14px;
+    font-weight: 500;
+}
+.catchers3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.searchIcon{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px #ff385c solid;
+    background-color: #ff385c;
+    color: white;
+}

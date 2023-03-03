@@ -1,0 +1,33 @@
+.hotelCard{
+    width: 277px;
+    margin-bottom: 40px;
+}
+.hotelCard img{
+    width: 277.73px;
+    height: 263.67px;
+    border-radius: 5%;
+}
+.location--info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location{
+    font-weight: 500;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light{
+    color: rgb(115, 116, 117);
+    font-size: 15.5px;
+}
+.price{
+    font-weight: 500;
+}
+.time{
+    font-weight: 400;
+}
