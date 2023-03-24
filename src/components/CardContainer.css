@@ -1,0 +1,17 @@
+.card--container{
+    margin:  20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+@media(max-width:955px){
+    .card--container{
+        margin: 20px 10px;
+    }
+}
+@media(max-width:769px){
+    .card--container{
+        margin: 20px 2px;
+    }
+}

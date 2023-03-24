@@ -1,0 +1,28 @@
+.searchResult{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px;
+    gap: 2%;
+    border-bottom: 2px solid rgb(204, 203, 203);
+
+}
+.searchResult > img{
+    min-width: 30%;
+    height: 90%;
+    object-fit: cover;
+}
+.date-picker-mobile{
+    display: none;
+}
+
+@media (max-width: 650px){
+    .date-picker-mobile{
+        display: flex;
+        width: 90%;
+    }
+    .date-picker{
+        display: none;
+    }
+}

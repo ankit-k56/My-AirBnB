@@ -1,0 +1,12 @@
+.date-picker{
+    width: 98%;
+    text-align: center;
+}
+.date-picker-mobile{
+    width: 90vh;
+}
+.button1{
+    color: #ff385c;
+    background-color: #ff385c;
+    background: #ff385c;
+}
